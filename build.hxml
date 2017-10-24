@@ -1,0 +1,8 @@
+-cp src
+-D analyzer-optimize
+--each
+-main Main
+-neko main.n
+--next
+-main Main
+-hl main.hl
